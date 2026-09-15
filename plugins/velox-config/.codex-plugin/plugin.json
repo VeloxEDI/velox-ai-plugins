@@ -1,0 +1,40 @@
+{
+  "name": "velox-config",
+  "version": "0.1.0",
+  "description": "Understand, review, troubleshoot, and create importable Velox configuration using shared Velox documentation and optional read-only customer GitHub configuration.",
+  "author": {
+    "name": "Velox EDI"
+  },
+  "homepage": "https://docs.veloxedi.com/",
+  "repository": "https://github.com/VeloxEDI/velox-plugins",
+  "license": "Proprietary",
+  "keywords": [
+    "velox",
+    "edi",
+    "integration",
+    "configuration",
+    "cfg",
+    "delphi"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Velox Config",
+    "shortDescription": "Understand and create Velox configuration",
+    "longDescription": "Use Velox Config to understand existing Velox Flows, actions, scripts, mappings and schedules, or create new importable .CFG configuration. It uses VeloxEDI/velox-ai-info as shared knowledge when GitHub is connected and can optionally inspect one designated customer configuration repository as read-only context. It never writes configuration changes back to GitHub.",
+    "developerName": "Velox EDI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://veloxedi.com/",
+    "defaultPrompt": [
+      "Explain this customer's Velox configuration.",
+      "Create an importable Velox CFG for this integration.",
+      "Review this Velox Flow and explain how it works."
+    ],
+    "brandColor": "#302F67"
+  }
+}
