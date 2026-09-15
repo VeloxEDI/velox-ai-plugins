@@ -1,0 +1,13 @@
+interface:
+  display_name: Velox Config
+  short_description: Understand and create importable Velox configuration
+  brand_color: '#302F67'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

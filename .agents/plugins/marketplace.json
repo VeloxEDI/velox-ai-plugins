@@ -1,0 +1,9 @@
+{
+  "name": "Velox Plugins",
+  "plugins": [
+    {
+      "name": "velox-config",
+      "source": "./plugins/velox-config"
+    }
+  ]
+}
