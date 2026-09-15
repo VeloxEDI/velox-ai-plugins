@@ -12,8 +12,9 @@
                 "path": "./plugins/velox-config"
             },
             "policy": {
-			  "allow_implicit_invocation": true
-			},
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
             "category": "Developer Tools"
         }
     ]
